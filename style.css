@@ -27,7 +27,7 @@ header{
     border-bottom: 1px solid white;
 }
 .main{
-    background-image: url(header-banner.jpg);
+    background-image: url('header-banner.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -128,7 +128,7 @@ header img{
 
 }
 .what-doing{
-    background-image: url(work-pic.jpg);
+    background-image: url('work-pic.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
