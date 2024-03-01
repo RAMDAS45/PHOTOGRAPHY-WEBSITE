@@ -1,0 +1,94 @@
+@media screen and (max-width: 600px) {
+  body {
+    min-width: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header1 h1 {
+    font-size: 50px;
+  }
+  .main {
+    min-width: 130vh;
+  }
+  .text a {
+    display: none;
+  }
+  .text i {
+    display: flex;
+    font-size: 50px;
+    padding-right: 20px;
+  }
+  .main-text h1 {
+    font-size: 100px;
+    padding-left: 0px;
+  }
+  .main-text .name h3 {
+    font-size: 35px;
+  }
+  .main-text {
+    margin-left: 20px;
+  }
+  .media i {
+    font-size: 35px;
+    margin-left: 0px;
+  }
+  .media {
+    margin-left: 15px;
+  }
+  .name h3 {
+    margin-left: 20px;
+    font-size: 40px;
+  }
+  .icons {
+    margin-left: 0px;
+  }
+  .about-text h1 {
+    font-size: 30px;
+  }
+  .about-section {
+    min-width: 130vh;
+    display: grid;
+    grid-template-rows: 500px;
+  }
+  .profile-photo {
+    margin-left: 10%;
+  }
+  .about-text {
+    margin-left: 10%;
+    min-width: 110vh;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .about-text h1 {
+    text-align: center;
+  }
+  .what-doing {
+    min-width: 130vh;
+    padding-bottom: 10px;
+  }
+  .images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .images img {
+    height: 800px;
+    width: 700px;
+  }
+  .contact-section {
+    min-width: 130vh;
+  }
+  .contact-text {
+    width: 100%;
+  }
+  .contact-text button {
+    margin-top: 100px;
+  }
+  .contact-image img {
+    height: 500px;
+    width: 450px;
+  }
+}
